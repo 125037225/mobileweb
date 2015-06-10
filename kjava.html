@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>国内最权威的词汇在线测试平台！</title>
+
+	<link rel="stylesheet" type="text/css" href="style/css/com.css" />
+	<link type="text/css" rel="stylesheet" href="style/css/kjava.css">
+	<script type="text/javascript" src="style/js/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<div class="kjava-wrap">
+		<a href="#" class="kjava-list">
+			<span class="kjava-img rush"></span>
+			<span class="kjava-text">抢考位</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img exam-time"></span>
+			<span class="kjava-text">考试时间</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img exam-name"></span>
+			<span class="kjava-text">考试报名</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img ielts"></span>
+			<span class="kjava-text">雅思模考</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img toefl"></span>
+			<span class="kjava-text">托福模考</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img spoken"></span>
+			<span class="kjava-text">口语测试</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img gre"></span>
+			<span class="kjava-text">真题机经</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img exam-before"></span>
+			<span class="kjava-text">考前预测</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img teacher-lectures"></span>
+			<span class="kjava-text">名师讲座</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img case"></span>
+			<span class="kjava-text">高分案例</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img course"></span>
+			<span class="kjava-text">高分课程</span>
+		</a>
+		<a href="#" class="kjava-list">
+			<span class="kjava-img on-line"></span>
+			<span class="kjava-text">在线答疑</span>
+		</a>
+	</div>
+<script type="text/javascript">
+	$(function(){
+		var eles = $(".kjava-wrap a");
+		var len = $(".kjava-wrap a").length;
+
+		for(var i=0;i<len;i++){
+			if(i%3 == 0 && i<(len-1)){
+				eles.slice(i,i+3).wrapAll("<div class='kjava-list-wrap'></div>");
+			}
+		}
+	});
+</script>
+
+
+</body>
+</html>

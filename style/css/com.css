@@ -1,0 +1,18 @@
+/*
+    common for reset/body/header/footer/popup/base font/base a
+*/
+body,div,p,a,li,ul,ol,span,input,dl, dd, dt, form, h1, h2, h3, h4, h5, h6, h7, input, select, pre,img,textarea,blockquote{
+    padding:0;
+    margin:0;
+    list-style:none;
+    outline:none;
+    border:0 none;
+    text-decoration:none;
+}
+body{
+    font:12px/2 "microsoft yahei";
+    overflow-x:hidden;
+}
+
+
+

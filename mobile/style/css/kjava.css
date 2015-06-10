@@ -1,0 +1,116 @@
+/*
+   for kjava.html
+*/
+/*content*/
+.kjava-wrap{
+    width:100%;
+}
+.kjava-wrap .kjava-list-wrap{
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.kjava-wrap .kjava-list{
+    width: 33%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+.kjava-wrap .kjava-list:nth-of-type(3n+2){
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    -moz-box-flex: 1;
+    -webkit-box-flex:1;
+}
+.kjava-wrap .kjava-list .kjava-img{
+    width: 45px;
+    height: 35px;
+    background: url("../img/treasure-icons.png") no-repeat 0 0;
+    background-size: 100px 420px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.kjava-wrap .kjava-list .kjava-text{
+    width: 100%;
+    display: inline-block;
+    line-height: 38px;
+    padding-top: 5px;
+    color: #333;
+}
+
+.kjava-wrap .kjava-list .kjava-img.rush{
+    background-position: 0 0;
+}
+.kjava-wrap .kjava-list .kjava-img.exam-time{
+    background-position: 0 -35px;
+}
+.kjava-wrap .kjava-list .kjava-img.exam-name{
+    background-position: 0 -70px;
+}
+.kjava-wrap .kjava-list .kjava-img.ielts{
+    background-position: 0 -105px;
+}
+.kjava-wrap .kjava-list .kjava-img.toefl{
+    background-position: 0 -140px;
+}
+.kjava-wrap .kjava-list .kjava-img.spoken{
+    background-position: 0 -175px;
+}
+.kjava-wrap .kjava-list .kjava-img.gre{
+    background-position: 0 -210px;
+}
+.kjava-wrap .kjava-list .kjava-img.exam-before{
+    background-position: 0 -245px;
+}
+.kjava-wrap .kjava-list .kjava-img.teacher-lectures{
+    background-position: 0 -280px;
+}
+.kjava-wrap .kjava-list .kjava-img.case{
+    background-position: 0 -315px;
+}
+.kjava-wrap .kjava-list .kjava-img.course{
+    background-position: 0 -350px;
+}
+.kjava-wrap .kjava-list .kjava-img.on-line{
+    background-position: 0 -385px;
+}
+
+.kjava-wrap .kjava-list:hover .kjava-img.rush{
+    background-position: -50px 0;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.exam-time{
+    background-position: -50px -35px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.exam-name{
+    background-position:-50px -70px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.ielts{
+    background-position: -50px -105px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.toefl{
+    background-position: -50px -140px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.spoken{
+    background-position: -50px -175px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.gre{
+    background-position: -50px -210px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.exam-before{
+    background-position: -50px -245px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.teacher-lectures{
+    background-position: -50px -280px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.case{
+    background-position: -50px -315px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.course{
+    background-position: -50px -350px;
+}
+.kjava-wrap .kjava-list:hover .kjava-img.on-line{
+    background-position: -50px -385px;
+}
+
